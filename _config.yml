@@ -2,7 +2,7 @@
 title: Redhcp
 description: Theme Resume
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:4000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# url: "localhost:4000"
 
 # User settings
 username: Redhcp

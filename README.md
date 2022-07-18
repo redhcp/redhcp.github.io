@@ -17,7 +17,7 @@ You have to fill some informations on `_config.yml` to customize your site:
 ```yml
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 ```
 
 ## User settings
