@@ -5,11 +5,15 @@ description: Theme Resume
 # url: "localhost:4000"
 
 # User settings
-username: Redhcp
-user_description: lorem_ipsum
-user_title: Systems Analyst
-email: a@a.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
+username: "Hi, I'm Cesar"
+#user_description: lorem_ipsum
+user_title: Technical Support Engineer
+email: cesaryoellerner@gmail.com
+twitter_username: Th3Ces4r
+github_username: redhcp
+linkedin_username: cyl90
+devto_username: redhcp
+status_page_link: "https://redhcp.me/status-page/"
+docs_link: "https://redhcp.me/docs/menu_long/"
 
 exclude: ["package.json", "src", "node_modules"]

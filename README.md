@@ -44,7 +44,7 @@ email: email@example.com
 You can (and should) edit the `.html` files for adding your own information, icons, working experience, social links or whatever you want to add. I.e.:
 
 ```html
-<a aria-label="My Github" target="_blank" href="https://github.com/murraco">
+<a aria-label="My Github" target="_blank" href="https://github.com/redhcp">
   <i class="icon fa fa-github-alt" aria-hidden="true"></i>
 </a>
 ```
@@ -55,7 +55,7 @@ In order to compile the assets and run `Jekyll` locally you need to follow those
 
 1. Install Jekyll
 2. Run `bundle install`
-3. Run `bundle exec jekyll build`
+3. Run `bundle exec jekyll build` or `bundle exec jekyll serve`
 4. Start and http-server in the folder `_site`
 
 # Contribution
@@ -66,3 +66,4 @@ In order to compile the assets and run `Jekyll` locally you need to follow those
 # Credits
 
 - [Nathan Randecker](https://github.com/nrandecker)
+- [Nathan Randecker](https://github.com/mmurraco)
