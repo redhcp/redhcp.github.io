@@ -13,7 +13,7 @@ twitter_username: Th3Ces4r
 github_username: redhcp
 linkedin_username: cyl90
 devto_username: redhcp
-status_page_link: "https://redhcp.me/status-page/"
-docs_link: "https://redhcp.me/docs/menu_long/"
+status_page_link: "https://redhcp.site/status-page/"
+docs_link: "https://redhcp.site/docs/menu_long/"
 
 exclude: ["package.json", "src", "node_modules"]
