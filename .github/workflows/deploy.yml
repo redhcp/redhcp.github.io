@@ -1,0 +1,33 @@
+name: Deploy Jekyll Site to S3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6.3
+
+      - name: Install Jekyll and Bundler
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Site
+        run: bundle exec jekyll build
+
+      - name: Sync to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: aws s3 sync ./_site ${{ secrets.AWS_BUCKET_NAME }} --delete
