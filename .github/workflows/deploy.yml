@@ -1,4 +1,4 @@
-name: Deploy Jekyll Site to S3
+name: deploy-jekyll-site-to-S3
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
